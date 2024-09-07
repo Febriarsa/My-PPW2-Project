@@ -26,3 +26,5 @@ Route::get('/home', function () {
 });
 
 Route::get('/posts', [PostController::class, 'index']);
+
+Route::get('/users', [userController::class, 'index']);
